@@ -68,8 +68,7 @@
 #### Слой сбора данных (Ingestion Layer)
 
 * Apache Kafka — брокер потоковых данных для транзакций и логов.
-* Vector / Logstash — сбор и доставка логов.
-* Debezium / Airbyte — CDC-коннекторы для выгрузки KYC из реляционных баз.
+
 
 ---
 
@@ -102,13 +101,13 @@
 #### Слой управления данными (Data Governance Layer)
 
 * Apache Atlas / OpenMetadata — каталогизация, lineage и метаданные.
-* Apache Ranger — контроль доступа и политика безопасности.
+
 
 #### Слой оркестрации и мониторинга (Orchestration & Monitoring Layer)
 
 * Apache Airflow — планирование batch-процессов и пайплайнов обучения моделей.
 * Prometheus + Grafana — мониторинг состояния сервисов и потоков данных.
-* ELK (Elasticsearch, Logstash, Kibana) — централизованное логирование и аудит.
+
 
 ---
 
